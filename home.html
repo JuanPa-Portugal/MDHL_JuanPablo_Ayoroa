@@ -6,31 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
   <link rel="shortcut icon" href="./assets/img/Logo-Mighty-ducks-01.png" type="image/x-icon">
+  <!-- <link rel="stylesheet" href="./assets/styles/style_1.css"> -->
+  <link rel="stylesheet" href="./assets/styles/style_custom.css">
 </head>
 <body>
-  <header>
-    <img width="120" src="./assets/img/Logo-Mighty-ducks-01.png" alt="Logotipo Mighty ducks">
-    <h1>Mighty Duck hockey League</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="./about.html">About MDHL</a>
-      <a href="./contact.html">Contact</a>
+  <header class="header">
+    <h1 class="header__title">Mighty Duck hockey League</h1>
+    <nav class="header__nav">
+      <a class="header__nav--active" href="#">Home</a>
+      <a  href="./about.html">About MDHL</a>
+      <a  href="./contact.html">Contact</a>
     </nav>
   </header>
   <main>
-    <section>
-      <img width="200"  src="./assets/img/hockey1.jpg" alt="jugador de hockey">
-      <h2>Upcoming Events</h2>
-      <h2>August 4</h2>
-      <p>MDSL Fundraiser</p>
-      <h2>August 16</h2>
-      <p>Season Kick-off: Meet the Teams</p>
-      <h2>September 1</h2>
-      <p>First Game of the Season(Check Game Schedule for details)</p>
+    <h2 class="events__title">Upcoming Events</h2>
+    <section class="events">
+      <img class="events__logo" src="./assets/img/Logo-Mighty-ducks-01.png" alt="Logotipo Mighty ducks">
+      <div class="events__date">
+        <div class="events__date--space">
+          <h3>August 4</h3>
+          <p>MDSL Fundraiser</p>
+        </div>
+        <div class="events__date--space">
+          <h3>August 16</h3>
+          <p>Season Kick-off: Meet the Teams</p>
+        </div>
+        <div class="events__date--space">
+          <h3>September 1</3>
+          <p class="events__paragrahp">First Game of the Season(Check Game Schedule for details)</p>
+        </div>
+      </div>
     </section>
-    <footer>
-      <p>echo juan pablo Ayoroa</p>
-    </footer>
   </main>
+  <footer>
+    <p>echo por juan pablo Ayoroa &reg;</p>
+  </footer>
 </body>
 </html>

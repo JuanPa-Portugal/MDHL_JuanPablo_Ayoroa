@@ -1,0 +1,49 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:cursive;
+}
+
+.header{
+  width: 100vw;
+  height: 60vh;
+  background:linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),url(../img/design1_image1.jpg) ;
+  background-size: cover;
+  position: relative;
+}
+
+.header__title{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+color: white;
+
+ 
+}
+.header__nav{
+  position: absolute;
+  display: inline-block;
+  left: 80%;
+  top: 2%;
+  transform: translate(-20%,-2%);
+}
+.header__nav a{
+  margin-left: 10px;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 8px;
+  color: white;
+  font-weight:200;
+  font-size: 1rem;
+ }
+ .header__nav .header__nav--active{
+   background-color: rgb(89, 192, 44);
+ }
+ .header__nav a:hover{
+   background-color:rgb(89, 192, 44) ;
+ 
+ }
