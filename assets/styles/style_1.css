@@ -83,3 +83,18 @@ footer{
   transform: translate(-50%, -100%);
 }
 
+/* contact */
+.events__contact{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+/* about me */
+.events__about{
+  margin-top: 50px;
+}
+
+/* duplico la class solo por espeficidad */
+.events__img.events__img{
+  width: 250px;
+}

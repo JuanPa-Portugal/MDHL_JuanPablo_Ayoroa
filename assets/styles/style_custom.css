@@ -89,6 +89,43 @@ font-size: 45px;
   margin-bottom: 10px;
  }
 
- footer{
+ .footer{
   text-align: center;
+ }
+
+ /* about me html style */
+
+ .eventsCard__about{
+  width: 70%;
+  height: 400px;
+  margin:0 auto;
+  margin-top:50px;
+  margin-bottom: 50px;
+  
+ }
+ .eventsCard__img--about{
+  width: 400px;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translate(-10%,-50%);
+ }
+ .eventsCard__date--about{
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  transform: translate(-40%, -50%);
+ }
+
+ /* contact html style */
+
+ .eventsCard__contact{
+  width: 20%;
+  margin-top: 50px;
+ }
+
+ .eventsCard__img--contact{
+  width: 300px;
+  padding: 8px 0;
+  border-radius: 50px;
  }
