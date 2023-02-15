@@ -9,36 +9,38 @@
       rel="shortcut icon"
       href="./assets/img/Logo-Mighty-ducks-01.png"
       type="image/x-icon">
-      <link rel="stylesheet" href="./assets/styles/style_1.css">
-    <!--   <link rel="stylesheet" href="./assets/styles/style_custom.css"> -->
+      <link rel="stylesheet" href="./assets/styles/style_flex.css">
+   
   </head>
   <body>
     <header class="header">
-
-      <!-- habilitar img paa style_custom.css -->
-      <!-- <img class="header__logo"
-        src="./assets/img/Logo-Mighty-ducks-01.png"
-        alt="Logotipo Mighty ducks"> -->
+      <div class="container container__header">
+        <img class="header__logo" src="./assets/img/Logo-Mighty-ducks-01.png" alt="Logotipo Mighty ducks">
+        <nav class="header__nav">
+          <a  href="./home.html">Home</a>
+          <a  href="./about.html">About MDHL</a>
+          <a  href="./rules.html">Rules</a>
+          <a  href="./game_info.html">Game fixture</a>
+          <a  class="header__nav--active" href="#">Contact</a>
+        </nav>
+      </div>
       <h1 class="header__title">Mighty Duck hockey League</h1>
-      <nav class="header__nav">
-        <a href="./home.html">Home</a>
-        <a href="./about.html">About MDHL</a>
-        <a class="header__nav--active" href="#">Contact</a>
-      </nav>
     </header>
     <main>
-      <div class="events__contact events eventsCard eventsCard__contact">
-        <img class=" eventsCard__img--contact"
-          src="./assets/img/hockey3.jpg"
-          alt="niños jugando hockey"
-          >
-          <div class="events__date ">
-            <p>
-              Please email us at
-              <a href="mailto:mdhl@chihockey.org">mdhl@chihockey.org</a>
-            </p>
-            <p>we reply to your email as soon as we can</p>
-          </div>
+      <div class="contactCard">
+        <div class="contactCard__img">
+          <img
+            src="./assets/img/hockey3.jpg"
+            alt="niños jugando hockey"
+            >
+        </div>
+        <div class="contactCard__paragrahp">
+          <p>
+            Please email us at:
+            <a href="mailto:mdhl@chihockey.org">mdhl@chihockey.org</a>
+          </p>
+          <p>we reply to your email as soon as we can</p>
+        </div>
       </div>
     </main>
     <footer class="footer">

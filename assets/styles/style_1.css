@@ -6,6 +6,7 @@
 body{
   font-family:cursive;
 }
+
 /* TITLE */
 .header__title{
   position: absolute;
@@ -52,9 +53,7 @@ body{
 }
 
 /* EVENTS SECTION */
-.events{
-  position: relative;
-}
+
 .events__title{
   text-align: center;
   border: 1px solid rgb(34, 34, 34);
