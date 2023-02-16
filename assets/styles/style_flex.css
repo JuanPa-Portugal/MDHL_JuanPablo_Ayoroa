@@ -13,14 +13,20 @@ footer{
   min-height: 5vh;
 }
 
+.header__sub{
+  text-align: center;
+  color: rgba(248, 241, 232, 0.844);
+  font-size: 22px;
+}
+
 /* HOME PAGE */
 .container{
   width: 90%;
+  margin: 0 auto;
 }
 
 .container__header{
   display: flex;
-  margin: 0 auto;
   align-items: center;
   justify-content: space-between;
 }
@@ -67,7 +73,6 @@ footer{
 }
 .events__card{
   display: flex;
-  margin: 0 auto;
   background-color: beige;
   height: 300px;
   width: 700px;
@@ -95,7 +100,6 @@ footer{
 /* ABOUT ME PAGE */
 
 .aboutme{
-  margin: 0 auto;
   display: flex;
   gap: 2rem;
   background-color: rgb(248, 244, 244);
@@ -134,7 +138,6 @@ footer{
 /* CONTACT STYLE PAGE */
 
 .contactCard{
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   width: 350px;
@@ -168,7 +171,7 @@ footer{
   display: flex;
   justify-content: space-evenly;
   background-color: rgb(253, 253, 253);
-  margin: 0 auto;
+  flex-wrap: wrap;
 }
 .sportmanshipCard{
   width: 43%;
@@ -258,9 +261,49 @@ footer{
     text-align: center;
   }
 
+  /* maps */
+
+  .maps{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .maps iframe{
+    border-radius: 10px;
+  }
+  .maps p{
+    margin-bottom: 10px;
+  }
+
   .schedule__contact{
     display: flex;
   }
   .schedule__contact > p{
     flex-grow: 1;
+  }
+
+  /* FORM PAGE */
+
+  .form{
+  width: 50rem;
+  outline: auto;
+  padding: 10px;
+  margin: auto;
+  }
+  .form__title{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+
+  .form__label{
+    max-width: 100%;
+  }
+
+ 
+  form fieldset, div{
+    margin-bottom: 10px;
+    padding: 10px 0;
   }
